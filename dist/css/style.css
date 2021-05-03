@@ -1,7 +1,7 @@
 
 .tag{
     background-color: #f1f8ff;
-    color:#0366d6;
+    color:#2c81e2;
     border-radius: 999px;
     padding: 5px 15px;
     margin: 2px;
@@ -9,9 +9,14 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.2s;
 }
 
 .tag:hover{
     cursor: default;
     background-color: #e3effc;
+}
+
+.tag::selection{
+    background: none;
 }
