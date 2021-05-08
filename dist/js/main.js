@@ -1,22 +1,25 @@
 
-"use strict";
 
-const activeArea = document.querySelector("[data-tags='active']");
-const text = activeArea.innerHTML;
+(function () {
 
-let regex = new RegExp(/\#(\w+)/g);
-let matches = text.match(regex);
-console.log("Matches:", matches);
+    const activeArea = document.querySelector("[data-tags='active']");
+    const text = activeArea.innerHTML;
 
-// clear area
-activeArea.innerHTML = '';
+    let regex = new RegExp(/\#(\w+)/g);
+    let matches = text.match(regex);
+    console.log("Matches:", matches);
 
-matches.forEach((i) => {
+    // clear area
+    activeArea.innerHTML = '';
 
-    let node = document.createElement('i');
+    matches.forEach((i) => {
 
-    node.innerHTML = i.replace('#', '')
-    node.classList.add('tag');
-    activeArea.appendChild(node);
-});
+        let node = document.createElement('i');
 
+        node.innerHTML = i.replace('#', '')
+        node.classList.add('tag');
+        activeArea.appendChild(node);
+    });
+
+
+})()
