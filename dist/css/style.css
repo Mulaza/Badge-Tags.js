@@ -14,7 +14,7 @@
 }
 
 .tag:hover{
-    cursor: default;
+    cursor: pointer;
     background-color: #dbedff;
 }
 
