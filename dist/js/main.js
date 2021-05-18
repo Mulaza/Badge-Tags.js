@@ -40,10 +40,7 @@ class Tags {
 }
 
 
-function dd(event) {
-    console.log(event.target.innerHTML, "meek")
-}
 
 // Takes one callback
-let vvs = new Tags(dd);
+let vvs = new Tags();
 

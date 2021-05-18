@@ -1,6 +1,7 @@
 
 .tag{
-    background-color: #f1f8ff;
+    background-color: #dbedff;
+    font-size: 1.05rem;
     color:#2c81e2;
     border-radius: 999px;
     padding: 5px 15px;
@@ -15,7 +16,7 @@
 
 .tag:hover{
     cursor: pointer;
-    background-color: #dbedff;
+    background-color: ;
 }
 
 .tag::selection{

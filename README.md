@@ -1,5 +1,5 @@
 
-# Hastags.js
+# Category Tags.js
 
 
 ## About
