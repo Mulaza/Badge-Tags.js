@@ -23,8 +23,9 @@ Because the library looks over the the page content for specific classes, place 
   <script src="/dist/js/main.js"></script>
 ```
 
-## Tutorial
+## How To Use
 Create a div with your desired words in it starting with a `#` value by adding the `data-tags` data attribute and giving it a value of `active`.
+
 NOTE: all words not starting with the `#` hash sign will not displayed as tokens.
 
 ```html

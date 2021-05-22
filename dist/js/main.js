@@ -36,4 +36,6 @@ class Tags {
 
 }
 
+
 module.exports = { Tags }
+
