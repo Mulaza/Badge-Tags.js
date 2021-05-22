@@ -1,7 +1,6 @@
 
 
-//
-class Tags {
+export default class Tags {
     constructor(callback = undefined) {
         this.callback = callback
         this.autorun = this.autorun()
@@ -30,17 +29,12 @@ class Tags {
             node.addEventListener('click', this.callback)
 
 
-
             activeArea.appendChild(node);
         });
 
     }
 
-
 }
 
-
-
-// Takes one callback
-let vvs = new Tags();
-
+//TODO remove before publishing
+let ff = new Tags();
