@@ -10,7 +10,7 @@ BadgeTags.js is a javascript library that helps turn your flagged keywords into 
 
 To install this package with NPM run the command below and link the needed javascript and css into your html file.
 ```text
-npm i ***** --save
+npm i badgetags --save
 ```
 
 ### Direct Download
