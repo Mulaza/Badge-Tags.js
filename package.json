@@ -1,0 +1,20 @@
+{
+  "name": "badgetags",
+  "version": "1.0.0",
+  "description": "BadgeTags.js is a javascript library that helps turn your flagged keywords into mobile badge tags.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mulaza/hashtags.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mulaza/hashtags/issues"
+  },
+  "homepage": "https://github.com/Mulaza/hashtags#readme"
+}

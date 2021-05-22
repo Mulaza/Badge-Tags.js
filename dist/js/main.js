@@ -36,6 +36,7 @@ class Tags {
 
 }
 
+let ff = new Tags()
 
 module.exports = { Tags }
 

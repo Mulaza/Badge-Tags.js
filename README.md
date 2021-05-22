@@ -1,9 +1,9 @@
 
-# Category Tags.js
+# Badge Tags.js
 
 
 ## About
-Hastags.js is a javascript library that helps turn your flagged keywords into mobile tokens.
+BadgeTags.js is a javascript library that helps turn your flagged keywords into mobile badge tags.
 
 ## Install
 ### NPM
@@ -26,15 +26,31 @@ Because the library looks over the the page content for specific classes, place 
 ## How To Use
 Create a div with your desired words in it starting with a `#` value by adding the `data-tags` data attribute and giving it a value of `active`.
 
-NOTE: all words not starting with the `#` hash sign will not displayed as tokens.
+NOTE: all words not starting with the `#` hash sign will not displayed as badges.
 
 ```html
     <div data-tags="active">
-        This is an example of #Hashtag.js that can be used #Javascript.
+        This is an example of #BadgeTags.js that can be used #Javascript.
     </div>
 ```
 
 In a seprate javascript file create an instance of the the `Tags` class. And you're done. 
 ```javascript
+// Tags Instance
 const tags = new Tags();
 ```
+
+## Click Callback
+The tags class object takes one callback linked to the the `click` event of the badges.
+
+```javascript
+// Callback function
+function hey(event){
+  console.log(`${target.event.innerHTML} 🔥`);
+};
+
+// Tags Instance
+const tags = new Tags(hey);
+
+```
+
