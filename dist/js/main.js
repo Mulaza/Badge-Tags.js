@@ -1,6 +1,6 @@
 
 
-export default class Tags {
+class Tags {
     constructor(callback = undefined) {
         this.callback = callback
         this.autorun = this.autorun()
@@ -36,5 +36,4 @@ export default class Tags {
 
 }
 
-//TODO remove before publishing
-let ff = new Tags();
+module.exports = { Tags }
