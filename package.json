@@ -1,6 +1,6 @@
 {
   "name": "badgetags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BadgeTags.js is a javascript library that helps turn your flagged keywords into mobile badge tags.",
   "main": "index.js",
   "scripts": {
