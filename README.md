@@ -16,11 +16,11 @@ npm i badgetags --save
 ### Direct Download
 To use this package you need to link the needed javascript and css into your html file.
 ```html
-  <link rel="stylesheet" href="/dist/css/style.css">
+  <link rel="stylesheet" href="/src/css/style.css">
 ```
 Because the library looks over the the page content for specific classes, place the script tag at the bottom of your HTML file or add the `defer` keyword to the tag, so the script will load after the HTML content.
 ```html
-  <script src="/dist/js/main.js"></script>
+  <script src="/src/js/main.js"></script>
 ```
 
 ## How To Use
