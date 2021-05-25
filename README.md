@@ -1,6 +1,6 @@
 
 # Badge Tags.js
-![2](https://user-images.githubusercontent.com/60890281/119446718-79ed3c00-bd61-11eb-9d94-794239b02651.png)
+![2](https://user-images.githubusercontent.com/60890281/119446452-0c411000-bd61-11eb-87a1-9f9ef3b402b5.png)
 
 
 ## About
@@ -30,12 +30,15 @@ Create a div with your desired words in it starting with a `#` value by adding t
 NOTE: all words not starting with the `#` hash sign will not displayed as badges.
 
 ```html
-    <div data-badge-tags="active">
-        This is an example of #BadgeTags.js that can be used #Javascript.
-    </div>
+  <div data-badge-tags="active">
+      I was in #Florida all #weekend at the #beach.    
+  </div>
 ```
 
-In a seprate javascript file create an instance of the the `BadgeTags` class. And you're done. 
+In a separate javascript file create an instance of the the `BadgeTags` class. And you're done. 
+
+![basic](https://user-images.githubusercontent.com/60890281/119476429-a2d0f980-bd80-11eb-9106-ef7d4b66131e.png)
+
 ```javascript
 // Tags Instance
 const tags = new BadgeTags();
@@ -47,15 +50,22 @@ The tags class object takes one object witch is used to change the apperance and
 
 
 ### Background Color
-The `backgroundColor` property is used to assign a single background color to all badge tags. The property accepts RGB colors, HEX colors as-well as css supported named colors. The property defaults to `rgb(240, 240, 240` if no value is defined.
+The `backgroundColor` property is used to assign a single background color to all badge tags. The property accepts RGB colors, HEX colors as-well as css supported named colors. The property defaults to `#f0f0f0` if no value is defined.
+
+![background](https://user-images.githubusercontent.com/60890281/119476427-a19fcc80-bd80-11eb-81ef-38d4076b54a0.png)
+
 ```javascript
 // Props object
 const props = {
-    backgroundColor: "#ff4a9d" // pink
+    backgroundColor: "#ff4a9d", // pink
+    textColor: 'white'
 }
 ```
 ### Text Color
 The `textColor` property is used to assign a single text color to all badge tags. The property accepts RGB colors, HEX colors as-well as css supported named colors. The property defaults to `grey` if no value is defined.
+
+![text](https://user-images.githubusercontent.com/60890281/119476424-a06e9f80-bd80-11eb-9f67-1926961613cf.png)
+
 ```javascript
 // Props object
 const props = {
@@ -64,10 +74,13 @@ const props = {
 ```
 ### Border Color
 The `borderColor` property is used to assign a single text color to all badge tags. The property accepts RGB colors, HEX colors as-well as css supported named colors. The property defaults to `transparent` if no value is defined.
+
+![border](https://user-images.githubusercontent.com/60890281/119476419-9f3d7280-bd80-11eb-9f81-6b6829318faa.png)
+
 ```javascript
 // Props object
 const props = {
-    borderColor: "#00d9ba" // blue
+    borderColor: "#00d9ba" // teal
 }
 ```
 

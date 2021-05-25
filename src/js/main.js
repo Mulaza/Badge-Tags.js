@@ -1,8 +1,8 @@
 
 class BadgeTags {
-    constructor(object) {
+    constructor(object = {}) {
 
-        this.backgroundColor = object.backgroundColor ? object.backgroundColor : "rgb(240, 240, 240";
+        this.backgroundColor = object.backgroundColor ? object.backgroundColor : "#f0f0f0";
         this.textColor = object.textColor ? object.textColor : "grey";
         this.borderColor = object.borderColor ? object.borderColor : "transparent";
         this.callback = object.callback;
