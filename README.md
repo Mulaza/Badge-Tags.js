@@ -1,5 +1,6 @@
 
 # Badge Tags.js
+![2](https://user-images.githubusercontent.com/60890281/119446718-79ed3c00-bd61-11eb-9d94-794239b02651.png)
 
 
 ## About
