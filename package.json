@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Mulaza/hashtags/issues"
   },
-  "homepage": "https://github.com/Mulaza/hashtags#readme"
+  "homepage": "https://github.com/Mulaza/hashtags#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1"
+  }
 }
