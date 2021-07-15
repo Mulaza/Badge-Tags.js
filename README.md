@@ -8,6 +8,7 @@ BadgeTags.js is a javascript library that helps turn your flagged keywords into 
 
 ## Install
 ### NPM
+![](https://img.shields.io/npm/v/badgetags?style=flat-square)
 
 To install this package with NPM run the command below and link the needed javascript and css into your html file.
 ```text
@@ -87,6 +88,16 @@ const props = {
     textColor: "#d53eff" // purple
 }
 ```
+
+#### Shape
+The `shape` property is used to change the border radius of the badge tags. The property currently only accepts two values `pill` and `box`.If no value is assigned the property value defaults to `pill`.
+
+```javascript
+const props = {
+    shape: 'box',
+}
+```
+
 ### Border Color
 The `borderColor` property is used to assign a single text color to all badge tags. The property accepts RGB colors, HEX colors as-well as css supported named colors. The property defaults to `transparent` if no value is defined.
 

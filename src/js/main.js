@@ -5,6 +5,7 @@ class BadgeTags {
         this.backgroundColor = object.backgroundColor ? object.backgroundColor : "#f0f0f0";
         this.textColor = object.textColor ? object.textColor : "grey";
         this.borderColor = object.borderColor ? object.borderColor : "transparent";
+        this.shape = object.shape ? object.shape == 'pill' || 'box' : 'pill'
         this.callback = object.callback;
 
         this.autorun = this.autorun()
@@ -27,6 +28,12 @@ class BadgeTags {
             let node = document.createElement('i');
             node.innerHTML = i.replace('#', '');
             node.classList.add('tag');
+
+            // Shape
+            if (this.shape == 'box') {
+                node.style.borderRadius = "5px"
+            }
+
 
             //  Colors
             node.style.backgroundColor = this.backgroundColor;
