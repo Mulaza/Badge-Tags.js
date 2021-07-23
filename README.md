@@ -16,13 +16,11 @@ npm i badgetags --save
 ```
 
 ### Direct Download
-To use this package you need to link the needed javascript and css into your html file.
-```html
-  <link rel="stylesheet" href="/src/css/style.css">
-```
+To use this package you need to link the needed javascript file into your html file.
+
 Because the library looks over the the page content for specific classes, place the script tag at the bottom of your HTML file or add the `defer` keyword to the tag, so the script will load after the HTML content.
 ```html
-  <script src="/src/js/main.js"></script>
+  <script src="/dist/js/all.js"></script>
 ```
 
 ## How To Use
@@ -90,7 +88,7 @@ const props = {
 ```
 
 #### Shape
-The `shape` property is used to change the border radius of the badge tags. The property currently only accepts two values `pill` and `box`.If no value is assigned the property value defaults to `pill`.
+The `shape` property is used to change the border radius of the badge tags. The property currently only accepts two values `pill` and `box`.If no value is assigned the property value defaults to `box`.
 
 ```javascript
 const props = {
